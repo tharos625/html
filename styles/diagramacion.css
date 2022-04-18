@@ -1,0 +1,68 @@
+body{
+	margin: 0px;
+	color: white;
+	background: black;
+}
+
+#titulo {
+
+	width: 100%;
+	text-align: center;
+
+}
+
+.menu {
+
+	list-style: none;
+	padding: 0px;
+	margin: auto;
+	background: white;
+	width: 70%;
+	max-width: 1000px;
+
+}
+
+.menu li {
+
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a {
+
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+
+}
+
+.menu ul li a:hover {
+
+	color: white;
+	background-color: blue;
+	
+}
+
+#contenedor {
+
+	width: 100%;
+	height: 80%;
+/*	margin: auto 0px ; */
+
+}
+
+#contenido {
+
+	height: 700px;
+
+}
+
+#pie {
+
+	width: 100%;
+	height: 50px;
+	color: black;
+	background: white;
+	text-align: center;
+
+}
